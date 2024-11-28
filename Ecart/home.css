@@ -1,0 +1,167 @@
+a, a:visited {
+    text-decoration: none;
+    color : white;
+}   
+.navbar{
+background-color :#0b0a0bf9;
+margin-bottom : 12px;
+border-radius : 20px;
+}
+
+nav {   
+display:flex;
+justify-content:space-between;
+align-items:center;
+height:80px;
+background-color: #fff;
+box-shadow:0 2px 4px rgba(221, 3, 3, 0.1);
+}
+
+.logo img{
+
+height: 70px;
+width : 130px;
+
+}
+
+
+.nav-links{
+display:flex;
+justify-content:flex-end;
+margin-right: 20px;
+}
+.nav-links li{
+list-style:none;
+margin-left:20px;
+}
+
+.nav-links a {
+text-decoration:none;
+color: #673cff;
+font-size : 18px;
+font-weight:bold;
+transition:all 0.3s ease;
+padding:10px;
+}
+
+.nav-links a:hover {
+    color:#f60606;
+
+}
+footer{
+    background-color : #333;
+    color:#fff;
+    padding:10px;
+    margin:10px;
+    text-align:center;
+    border-radius:30px;
+
+}
+
+.container{
+    max-width:960px;
+    margin:0 auto;
+}
+
+.footer-links{
+    list-style:none;
+    margin:0;
+    padding:0;
+    display:flex;
+    justify-content:center;
+}
+.footer-links li{
+    margin:0 10px;
+}
+.footer-links a{
+    color:#fff;
+    text-decoration:none;
+    font-weight: bold;
+    text-transform:uppercase;
+    font-size:12px;
+}
+body{
+   background:linear-gradient(to right,#b91919,#cfa4a4 );
+}
+ul{
+    list-style-type:none;
+    padding:10px;
+    text-decoration:none;
+}
+li{
+   padding:20px;
+
+}
+
+li:hover{
+  
+       box-shadow: 0 7px black;
+}
+li{
+border-radius:23px;
+}
+.header{
+    text-align: center;
+    padding: 3px;
+    border-radius: 23px;
+    background-color: #8b3bae;
+    box-shadow: 0 0 4px rgb(46, 46, 46);
+}
+.left{
+    display: inline-block;
+    width: 20%;
+    max-width: 30%;
+    position: sticky;
+    margin-top: 0cm;
+    vertical-align: top;
+    background:linear-gradient(to right, #fff,#5819a9);
+    border-radius: 23px;
+    height: 150vh;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+.right{
+    display: inline-block;
+    width: 79%;
+    vertical-align: top;
+}
+.item{
+    justify-content: center;
+    display: inline-block;
+    width: 40%;
+    vertical-align:middle;
+    text-align: center;
+    padding: 5px;
+}
+img{
+    width: 5cm;
+    height: 5cm;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
